@@ -1,0 +1,48 @@
+# ─── Backend (Spring Boot / Maven) ───────────────────────────
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.mvn/repository/
+!backend/.mvn/wrapper/maven-wrapper.properties
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# ─── Frontend (Node / Vite / React) ──────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ─── IDE / Editor ────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
