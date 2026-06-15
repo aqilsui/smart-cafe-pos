@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
-import { Play, Check, Clock, AlertTriangle, AlertCircle, RefreshCw } from 'lucide-react';
+import { Play, Check, Clock, AlertTriangle, AlertCircle, RefreshCw, ChefHat } from 'lucide-react';
 
 const KitchenQueue = () => {
   const { 
@@ -140,7 +140,7 @@ const KitchenQueue = () => {
           alignItems: 'center',
           gap: '12px'
         }}>
-          <ChefHatIcon size={48} style={{ opacity: 0.2 }} />
+          <ChefHat size={48} style={{ opacity: 0.2 }} />
           <p style={{ fontSize: '1rem', fontWeight: 500 }}>No pending orders in the kitchen.</p>
           <p style={{ fontSize: '0.85rem' }}>Send some orders from the dining floor POS dashboard.</p>
         </div>
@@ -285,7 +285,5 @@ const KitchenQueue = () => {
     </div>
   );
 };
-
-const ChefHatIcon = ({ size, style }) => <ChefHat size={size} style={style} />;
 
 export default KitchenQueue;
